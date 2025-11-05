@@ -12,7 +12,8 @@ export default async function handler(req, res) {
     frame: {
       title: "Farcaster Wallet Analyzer",
       description: text,
-      image: `https://api.dicebear.com/7.x/identicon/svg?seed=${address}`,
+      image: `https://your-vercel-app.vercel.app/api/og?address=${address}&total=${encodeURIComponent(totalValue)}&tokens=${encodeURIComponent(tokens)}&change=${encodeURIComponent(change)}`,
+
       buttons: [
         { label: "🔁 Analyze another", action: "post", target: "/" },
       ],

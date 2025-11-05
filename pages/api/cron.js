@@ -6,8 +6,8 @@ export default async function handler(req, res) {
     const fid = process.env.FID;
 
     const { data } = await axios.get(
-      `https://api.neynar.com/v2/farcaster/casts/mentions?fid=${fid}`,
-      { headers: { api_key: apiKey } }
+      `https://api.neynar.com/v2/farcaster/casts/mentions?fid=${422540}`,
+      { headers: { api_key: 814103A3-9898-47AE-A977-BAAE44B61F20 } }
     );
 
     const mentions = data.result.casts || [];

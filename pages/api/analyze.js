@@ -13,7 +13,6 @@ export default async function handler(req, res) {
       title: "Farcaster Wallet Analyzer",
       description: text,
       image: `https://your-vercel-app.vercel.app/api/og?address=${address}&total=${encodeURIComponent(totalValue)}&tokens=${encodeURIComponent(tokens)}&change=${encodeURIComponent(change)}`,
-
       buttons: [
         { label: "🔁 Analyze another", action: "post", target: "/" },
       ],

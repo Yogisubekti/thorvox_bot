@@ -53,7 +53,7 @@ export default async function handler(req) {
     }
 
     // frame image
-    const imageUrl = `https://your-vercel-app.vercel.app/api/og?address=${address}&total=${encodeURIComponent(
+    const imageUrl = `https://thorvox-bot.vercel.app/api/og?address=${address}&total=${encodeURIComponent(
       totalValue
     )}&tokens=${encodeURIComponent(tokens)}&change=${encodeURIComponent(change)}`;
 

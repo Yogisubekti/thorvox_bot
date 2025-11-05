@@ -1,0 +1,17 @@
+{
+  "name": "farcaster-wallet-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "neynar": "^0.3.0"
+  }
+}
